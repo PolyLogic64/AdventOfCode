@@ -1,6 +1,6 @@
 # PolyLogic Advent of Code
 
-## Days vs Langagues
+## Days vs Languages
 ### 2015
 
 |      | Day 1 |
