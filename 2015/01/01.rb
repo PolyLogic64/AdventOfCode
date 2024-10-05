@@ -1,6 +1,4 @@
 
-Input = File.new("input.txt").read
-
 def part01(input)
     counter = 0
     input.each_char do |char|
@@ -20,5 +18,8 @@ def part02(input)
     return counter
 end
 
-puts "Part01: #{part01(Input)}"
-puts "Part02: #{part02(Input)}"
+File.open("input.txt") do |file|
+    Input = file.read
+    puts "Part01: #{part01(Input)}"
+    puts "Part02: #{part02(Input)}"
+end
